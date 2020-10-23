@@ -57,7 +57,7 @@ module.exports = (() => {
     } : (([Plugin, Api]) => {
         const plugin = (Plugin, Api) => {
     const buttonHTML = `<div class="send-button">
-    <img src="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTIuMDEgMjFMMjMgMTIgMi4wMSAzIDIgMTBsMTUgMi0xNSAyeiIvPiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PC9zdmc+">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABEElEQVRIS9WUQYrCQBBFfyXmAF7ARc4RSF1RGDciKM5udu6FFAEJDMw2F9CNuYBBSJcwYEYcM0laOzC96UUX9ap+/yqC40OO82M4ADN/EtGiLMv3LMtOr+qs7iCO44qIPFUtiGhpjJmlabp/FlQDmNkAP5Kp6tnzvI2qzkVkawtqBNwl/CKiuY18twBtq9JGvl6AawF95LMC9JGvBkRRNA6CIDTGhEQUqurtPQEwapHwCGAF4E1EDtfYToPGzCPf9ydVVf2CAwgBjJvkcwYAME2SZDecRMzcatOGP/ieEVVdi0h5H2PlIpc2feiUv9w16Kpwu+yGWNcZgFlRFB95np/bFl/X906D1jXZo7j/D7gAfqnlGdqO/HYAAAAASUVORK5CYII=">
 </div>`;
 
     const press = new KeyboardEvent("keydown", {key: "Enter", code: "Enter", which: 13, keyCode: 13, bubbles: true});
