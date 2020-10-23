@@ -1,0 +1,32 @@
+.send-button {
+	width: 30px;
+	height: 24px;
+	top: 8px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	right: 12px;
+	filter: grayscale(100%);
+	fill: "currentColor";
+	background-position: -22px 0px;
+}
+
+.send-button img {
+	width: 22px;
+	height: 22px;
+	opacity: 0.2;
+	background-position-x:-88px;
+	background-position-y:-44px;
+	width: 100%;
+	top: 12px;
+	filter: grayscale(100%);
+	transition: all 200ms ease;
+	fill: "currentColor";
+}
+
+.send-button img:hover {
+	cursor: pointer;
+	opacity: 1;
+	transform:scale(1.1);
+}
